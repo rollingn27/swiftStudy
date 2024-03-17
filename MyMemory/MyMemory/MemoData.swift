@@ -1,8 +1,9 @@
-//
-//  MemoData.swift
-//  MyMemory
-//
-//  Created by minkuyoun on 3/16/24.
-//
+import UIKit
 
-import Foundation
+class MemoData {
+    var memoIdx : Int?
+    var title : String?
+    var contents : String?
+    var image : UIImage?
+    var regdate : Date?
+}
